@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+ android:background="@color/screenBackground">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:orientation="vertical" android:padding="16dp" android:gravity="center_horizontal">
+  <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/fotoPerfilMilo"
+   android:layout_width="130dp" android:layout_height="130dp"
+   android:layout_marginTop="16dp" android:src="@drawable/milo_01"
+   android:contentDescription="Retrato ilustrado de Milo"
+   app:civ_border_width="3dp" app:civ_border_color="@color/colorPrimaryDark" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+   android:text="Milo" android:textStyle="bold" android:textSize="28sp"
+   android:layout_marginTop="12dp" android:textColor="@color/brandInk" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+   android:text="Golden retriever · Álbum de momentos" android:layout_marginBottom="18dp" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:text="Fotos de Milo" android:textSize="20sp" android:textStyle="bold"
+   android:textColor="@color/brandInk" android:layout_marginBottom="8dp" />
+  <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerFotos"
+   android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:clipToPadding="false" />
+ </LinearLayout>
+</ScrollView>

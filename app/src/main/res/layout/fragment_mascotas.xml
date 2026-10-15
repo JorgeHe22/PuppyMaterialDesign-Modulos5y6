@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:orientation="vertical" android:background="@color/screenBackground">
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:paddingStart="18dp" android:paddingEnd="18dp" android:paddingTop="20dp" android:paddingBottom="6dp"
+  android:text="Conoce a nuestros amigos 🐾" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/brandInk" />
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:paddingStart="18dp" android:paddingBottom="10dp" android:text="Toca el hueso para apoyar a tu favorito." />
+ <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerMascotas"
+  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+  android:clipToPadding="false" android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingBottom="18dp" />
+</LinearLayout>

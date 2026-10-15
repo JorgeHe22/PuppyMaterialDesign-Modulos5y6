@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+ android:background="@color/screenBackground">
+ <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbarAcerca"
+  android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+  android:title="Acerca de" android:background="@color/colorPrimary" />
+ <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:gravity="center_horizontal" android:padding="24dp" android:orientation="vertical">
+   <de.hdodenhof.circleimageview.CircleImageView android:layout_width="128dp" android:layout_height="128dp"
+    android:src="@drawable/avatar_desarrollador" android:contentDescription="Avatar ilustrativo del desarrollador" />
+   <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_marginTop="15dp" android:text="Desarrollador de Puppy Material"
+    android:textSize="23sp" android:textStyle="bold" android:textColor="@color/brandInk" />
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="14dp" android:text="Biografía (editable): Estudiante de desarrollo de aplicaciones Android, interesado en construir experiencias móviles accesibles y atractivas. Puppy Material explora Material Design, RecyclerView, Fragments, ViewPager2 y formularios de contacto."
+    android:textSize="16sp" android:lineSpacingExtra="5dp" android:textColor="@color/brandInk" />
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="20dp" android:text="Proyecto académico · Módulos 5 y 6" />
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

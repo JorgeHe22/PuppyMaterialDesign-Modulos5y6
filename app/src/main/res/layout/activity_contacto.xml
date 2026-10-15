@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+ android:background="@color/screenBackground">
+ <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbarContacto"
+  android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+  android:title="Contacto" android:background="@color/colorPrimary" />
+ <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:padding="20dp" android:orientation="vertical">
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="¡Nos encanta escucharte!" android:textSize="24sp" android:textStyle="bold"
+    android:textColor="@color/brandInk" android:layout_marginBottom="22dp" />
+   <com.google.android.material.textfield.TextInputLayout android:id="@+id/layoutNombre"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombre completo">
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputNombre"
+     android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout android:id="@+id/layoutCorreo"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="14dp" android:hint="Correo electrónico">
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputCorreo"
+     android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout android:id="@+id/layoutMensaje"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="14dp" android:hint="Tu comentario">
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputMensaje"
+     android:layout_width="match_parent" android:layout_height="150dp" android:gravity="top"
+     android:inputType="textMultiLine" />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.button.MaterialButton android:id="@+id/btnEnviarComentario"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="20dp" android:text="Enviar comentario" />
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

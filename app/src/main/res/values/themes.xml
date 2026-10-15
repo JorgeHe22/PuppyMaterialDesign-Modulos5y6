@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Components de AndroidX funciona desde API 21. -->
+    <style name="Theme.Puppy" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colores exigidos por la actividad del curso -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Equivalentes adicionales usados por Material Components -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccentDark</item>
+        <item name="colorOnPrimary">@color/brandInk</item>
+        <item name="colorOnSecondary">@color/actionText</item>
+        <item name="colorSurface">@color/surfaceWhite</item>
+        <item name="colorOnSurface">@color/brandInk</item>
+        <item name="android:colorBackground">@color/screenBackground</item>
+        <item name="android:windowBackground">@color/screenBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/brandInk</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent" android:layout_height="wrap_content"
+ android:layout_margin="6dp" app:cardCornerRadius="14dp" app:cardElevation="2dp">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+  <ImageView android:id="@+id/imagenFotoMascota" android:layout_width="match_parent"
+   android:layout_height="155dp" android:scaleType="centerCrop" android:contentDescription="Foto de muestra de Milo" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:orientation="horizontal" android:gravity="center_vertical" android:padding="10dp">
+   <ImageView android:layout_width="22dp" android:layout_height="22dp"
+    android:src="@drawable/ic_hueso" app:tint="#F3B72F" android:contentDescription="Huesos de valoración" />
+   <TextView android:id="@+id/textoRatingFoto" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="5 huesos"
+    android:textColor="@color/brandInk" android:textStyle="bold" />
+  </LinearLayout>
+ </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puppy Material</string>
+    <string name="welcome_title">¡Bienvenido a Puppy!</string>
+    <string name="welcome_description">Un diseño cálido y sencillo inspirado en la identidad de Puppy.</string>
+    <string name="palette_heading">Nuestra identidad visual</string>
+    <string name="primary_label">Primary</string>
+    <string name="dark_label">Dark primary</string>
+    <string name="accent_label">Accent</string>
+    <string name="btn_explore">Conocer Puppy</string>
+    <string name="btn_palette">Ver códigos de colores</string>
+    <string name="switch_updates">Recibir novedades</string>
+    <string name="paw_content_description">Icono decorativo de huella de cachorro</string>
+    <string name="footer_note">Ejercicio académico · Material Design</string>
+    <string name="action_message">¡Gracias por conocer Puppy!</string>
+    <string name="updates_enabled">Novedades activadas</string>
+    <string name="updates_disabled">Novedades desactivadas</string>
+    <string name="palette_dialog_title">Paleta corporativa de Puppy</string>
+    <string name="palette_dialog_message">Primary: #74E0E6\nDark primary: #008C95\nAccent: #FF6254\nTexto complementario: #4D3D41</string>
+    <string name="close">Cerrar</string>
+</resources>

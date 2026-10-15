@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta aproximada inspirada en el logotipo de Puppy -->
+    <color name="colorPrimary">#74E0E6</color>
+    <color name="colorPrimaryDark">#008C95</color>
+    <color name="colorAccent">#FF6254</color>
+
+    <color name="colorAccentDark">#D94A40</color>
+    <color name="brandInk">#4D3D41</color>
+    <color name="actionText">#1A1A1A</color>
+    <color name="screenBackground">#F5FAFA</color>
+    <color name="surfaceWhite">#FFFFFF</color>
+    <color name="outlineSoft">#D9EAEA</color>
+</resources>
